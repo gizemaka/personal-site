@@ -16,9 +16,9 @@ const pages = [
   //   heading: 'ABOUT ME',
   // },
   {
-    route: '/projects',
-    title: 'Projects | Cem Aslan',
-    heading: 'PROJECTS',
+    route: '/works',
+    title: 'Works | Cem Aslan',
+    heading: 'WORKS',
   },
   // {
   //   route: '/stats',

@@ -10,8 +10,9 @@ const positions = [
       'Cinematic Replay Editor and Offline Renderer optimization and maintenance.',
       'Profiling and optimizations of existing rendering systems',
       'Various Editor and Debug Tools Development',
+      'Research and implementation of visual effect components by collaborating with Technical Artists',
       'Maintenance of the engine, supporting development teams of Mount & Blade II: Bannerlord and unannounced projects.',
-      'Environment : C++ on Windows, with occasional maintenance of the C# side of the Engine',
+      'Environment : C++ on Windows, HLSL, with occasional maintenance of the C# side of the Engine',
     ],
   }, {
     company: 'Hacettepe University Computer Graphics and Game Studies Lab',
@@ -22,7 +23,7 @@ const positions = [
       'Research mainly consisting of developing synthetical data generation tools to a team of ML engineers.',
       'The research and development of VR solutions combined with motion capture technologies in context of "Serious Games".',
       'Publication of research results.',
-      'Environment : C++, C#, Unity, Oculus Rift and HTC Vive',
+      'Environment : C++, C#, HLSL, Unity, Oculus Rift and HTC Vive',
     ],
   }, {
     company: 'Codequarters',

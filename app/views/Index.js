@@ -31,7 +31,7 @@ const Index = () => (
         </div>
       </header>
       <p>You can check out my {' '}
-      <b><Link to="/projects">projects</Link></b>, {' '}
+      <b><Link to="/works">projects</Link></b>, {' '}
        <b><Link to="/resume">resume</Link></b>, {' '}
         {/* view <Link to="/stats">site statistics</Link>, {' '} */}
          or <b><Link to="/contact">contact</Link></b> me.
