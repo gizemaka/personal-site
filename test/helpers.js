@@ -7,27 +7,27 @@ const randomString = (length) => {
 const pages = [
   {
     route: '/',
-    title: 'Michael D\'Angelo',
+    title: 'Cem Aslan',
     heading: 'ABOUT THIS SITE',
   },
   {
     route: '/about',
-    title: 'About | Michael D\'Angelo',
+    title: 'About | Cem Aslan',
     heading: 'ABOUT ME',
   },
   {
     route: '/projects',
-    title: 'Projects | Michael D\'Angelo',
+    title: 'Projects | Cem Aslan',
     heading: 'PROJECTS',
   },
-  {
-    route: '/stats',
-    title: 'Stats | Michael D\'Angelo',
-    heading: 'STATS',
-  },
+  // {
+  //   route: '/stats',
+  //   title: 'Stats | Cem Aslan',
+  //   heading: 'STATS',
+  // },
   {
     route: '/contact',
-    title: 'Contact | Michael D\'Angelo',
+    title: 'Contact | Cem Aslan',
     heading: 'CONTACT',
   },
 ];
