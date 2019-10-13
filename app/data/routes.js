@@ -4,17 +4,17 @@ const data = [
     label: 'Cem Aslan',
     index: true,
   },
+  // {
+  //   path: '/about',
+  //   label: 'About',
+  // },
   {
-    path: '/about',
-    label: 'About',
+    path: '/projects',
+    label: 'Projects',
   },
   {
     path: '/resume',
     label: 'Resume',
-  },
-  {
-    path: '/projects',
-    label: 'Projects',
   },
   // {
   //   path: '/stats',

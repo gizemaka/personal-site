@@ -10,11 +10,11 @@ const pages = [
     title: 'Cem Aslan',
     heading: 'ABOUT THIS SITE',
   },
-  {
-    route: '/about',
-    title: 'About | Cem Aslan',
-    heading: 'ABOUT ME',
-  },
+  // {
+  //   route: '/about',
+  //   title: 'About | Cem Aslan',
+  //   heading: 'ABOUT ME',
+  // },
   {
     route: '/projects',
     title: 'Projects | Cem Aslan',
