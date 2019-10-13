@@ -38,12 +38,30 @@ const Resume = () => (
                 <a href={`#${sec.toLowerCase()}`}>{sec}</a>
               </h4>))}
           </div> */}
-
+        </div>
+        <div className="title">
+          <h4>Turkey based</h4>
+          <h4>23 Years Old</h4>
+          <h4>cemaslan96@outlook.com</h4>
+          {/* <h2><Link to="resume">Resume</Link></h2> */}
+          {/* <div className="link-container">
+            {sections.map((sec) => (
+              <h4 key={sec}>
+                <a href={`#${sec.toLowerCase()}`}>{sec}</a>
+              </h4>))}
+          </div> */}
         </div>
       </header>
+      
       <Education data={degrees} />
       <Experience data={positions} />
       {/* <Skills skills={skills} categories={categories} /> */}
+      <h3>Skills</h3>
+      - Have most experience with C/C++, C#. Used Python, Java, Rust and few others on utility basis. <br/>
+      - Graphics Debugging, GLSL, HLSL.<br/>
+      - Experience with working on a continually developed Engine with established codebase.<br/>
+      - Decent knowledge of rendering techniques.<br/>
+      - Research and Publication.<br/>
       <Courses data={courses} />
       <References />
 

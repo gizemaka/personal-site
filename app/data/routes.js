@@ -10,7 +10,7 @@ const data = [
   // },
   {
     path: '/projects',
-    label: 'Projects',
+    label: 'Works',
   },
   {
     path: '/resume',

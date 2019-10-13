@@ -30,7 +30,7 @@ const Index = () => (
           {/* <p>A beautiful, responsive, react app written with modern Javascript.</p> */}
         </div>
       </header>
-      <p>This site probably means that I want to work for you; you can check out my {' '}
+      <p>You can check out my {' '}
       <b><Link to="/projects">projects</Link></b>, {' '}
        <b><Link to="/resume">resume</Link></b>, {' '}
         {/* view <Link to="/stats">site statistics</Link>, {' '} */}
