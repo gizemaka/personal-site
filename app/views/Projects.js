@@ -35,7 +35,7 @@ const Projects = () => (
       <p>
       - Switched to tiled decal rendering, generates a variable sized atlas for all decals in game. <br />
       - Used to render forward with meshes, detached and implemented seperate component type and a sub-renderer system for it to be able to optimize buffer fills every frame. <br />
-      - Prepared a artist-friendly system which abstracts the atlas generation process from them, allowing to dynamically generate a new atlas in the background whilst they make changes.
+      - Implemented an artist-friendly system which abstracts the atlas generation process from them, allowing to dynamically generate a new atlas in the background whilst they make changes.
       </p>
       <img src={`${BASE_PATH}/images/projects/hardlight.jpg`} alt="" />
       <p>Tiled culling also enabled more flexibility with decal rendering, above is hardlight blending for blood decals.</p>
@@ -43,7 +43,7 @@ const Projects = () => (
       <img style={{height: 350}} src={`${BASE_PATH}/images/projects/moss1.jpg`} alt="" />
       <img style={{height: 350}} src={`${BASE_PATH}/images/projects/moss3.jpg`} alt="" />
       <img style={{height: 382}} src={`${BASE_PATH}/images/projects/moss2.jpg`} alt="" />
-      <p>A pre-gbuffer variant of decals that can blend into parallax meshes. Above are procedurally placed moss decals on stone wall crevices.</p>
+      <p>A pre-gbuffer variant of decals that can blend into parallax meshes. We procedurally placed these on frequently used materials to break the tiling. Above is a scene that makes heavy use of this technique to add moss details on stone crevices.</p>
 
       <h3>Replay Editor and Offline Renderer</h3>
       <p>I was also responsible for the Cinematic Replay Editor and the Offline Renderer, lots of refactoring and parallelization tricks along with visual improvements. Below is the Early Access Release Trailer demonstrating it's results.</p>
