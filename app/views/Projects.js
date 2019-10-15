@@ -13,7 +13,7 @@ const Projects = () => (
     <article className="post" id="projects">
       <header>
         <div className="title">
-          <h2><Link to="/projects">Works</Link></h2>
+          <h2><Link to="/works">Works</Link></h2>
           <p>A selection of few that I&apos;m not too ashamed of</p>
           
         </div>
@@ -76,10 +76,16 @@ const Projects = () => (
       <p> These are works that I have done during my time at HUCG Research Team. All software implementations in following works except management, content preperation and ML benchmarkings belong to me.</p>
 
       <img style={{height: 160}} src={`${BASE_PATH}/images/projects/computer_vision.jpg`} alt="" />
-      <p> <Link to="https://1drv.ms/b/s!As78vRwJjLxTgesz7sqFIHlmKmdDFg?e=8GzDmK">Rendering Virtual Worlds with Humans for Computer Vision Tasks (First Authored)</Link></p>
+
+      <a href = 'https://1drv.ms/b/s!As78vRwJjLxTgesz7sqFIHlmKmdDFg?e=8GzDmK'>
+        <p>Rendering Virtual Worlds with Humans for Computer Vision Tasks (First Authored)</p>
+      </a>
 
       <img style={{height: 130}} src={`${BASE_PATH}/images/projects/vr_cafe.jpg`} alt="" />
-      <p> <Link to="https://www.researchgate.net/publication/328439189_The_Virtual_Cafeteria_An_Immersive_Environment_for_Interactive_Food_Portion-Size_Education">The Virtual Cafeteria: An Immersive Environment for Interactive Food Portion-Size Education. In Proceedings of the 3rd International Workshop on Multisensory Approaches to Human-Food Interaction (Second Authored)</Link></p>
+      
+      <a href = 'https://www.researchgate.net/publication/328439189_The_Virtual_Cafeteria_An_Immersive_Environment_for_Interactive_Food_Portion-Size_Education'>
+        <p>The Virtual Cafeteria: An Immersive Environment for Interactive Food Portion-Size Education. In Proceedings of the 3rd International Workshop on Multisensory Approaches to Human-Food Interaction (Second Authored)</p>
+      </a>
 
       {/* {data.map((project) => (
         <Cell

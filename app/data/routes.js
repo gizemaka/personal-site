@@ -9,7 +9,7 @@ const data = [
   //   label: 'About',
   // },
   {
-    path: '/projects',
+    path: '/works',
     label: 'Works',
   },
   {
