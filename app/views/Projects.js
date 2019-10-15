@@ -74,18 +74,21 @@ const Projects = () => (
       <h3>Publications</h3>
 
       <p> These are works that I have done during my time at HUCG Research Team. All software implementations in following works except management, content preperation and ML benchmarkings belong to me.</p>
-
-      <img style={{height: 160}} src={`${BASE_PATH}/images/projects/computer_vision.jpg`} alt="" />
-
-      <a href = 'https://1drv.ms/b/s!As78vRwJjLxTgesz7sqFIHlmKmdDFg?e=8GzDmK'>
-        <p>Rendering Virtual Worlds with Humans for Computer Vision Tasks (First Authored)</p>
-      </a>
-
-      <img style={{height: 130}} src={`${BASE_PATH}/images/projects/vr_cafe.jpg`} alt="" />
       
-      <a href = 'https://www.researchgate.net/publication/328439189_The_Virtual_Cafeteria_An_Immersive_Environment_for_Interactive_Food_Portion-Size_Education'>
-        <p>The Virtual Cafeteria: An Immersive Environment for Interactive Food Portion-Size Education. In Proceedings of the 3rd International Workshop on Multisensory Approaches to Human-Food Interaction (Second Authored)</p>
+      <a style={{borderBottomStyle: 'none', borderBottomWidth: 0}} href = 'https://1drv.ms/b/s!As78vRwJjLxTgesz7sqFIHlmKmdDFg?e=8GzDmK'>
+        <img style={{height: 160}} src={`${BASE_PATH}/images/projects/computer_vision.jpg`} alt="" />
       </a>
+      <p>
+        <a href = 'https://1drv.ms/b/s!As78vRwJjLxTgesz7sqFIHlmKmdDFg?e=8GzDmK'>Rendering Virtual Worlds with Humans for Computer Vision Tasks</a> (First Authored)
+      </p>
+      
+      <a style={{borderBottomStyle: 'none', borderBottomWidth: 0}} href = 'https://www.researchgate.net/publication/328439189_The_Virtual_Cafeteria_An_Immersive_Environment_for_Interactive_Food_Portion-Size_Education'>
+        <img style={{height: 130}} src={`${BASE_PATH}/images/projects/vr_cafe.jpg`} alt="" />
+      </a>
+      <p>
+        <a href = 'https://www.researchgate.net/publication/328439189_The_Virtual_Cafeteria_An_Immersive_Environment_for_Interactive_Food_Portion-Size_Education'> The Virtual Cafeteria: An Immersive Environment for Interactive Food Portion-Size Education. In Proceedings of the 3rd International Workshop on Multisensory Approaches to Human-Food Interaction </a> (Second Authored)
+      </p>
+     
 
       {/* {data.map((project) => (
         <Cell
