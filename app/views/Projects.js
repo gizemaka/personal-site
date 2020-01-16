@@ -82,13 +82,19 @@ const Projects = () => (
         <a href = 'https://1drv.ms/b/s!As78vRwJjLxTgesz7sqFIHlmKmdDFg?e=8GzDmK'>Rendering Virtual Worlds with Humans for Computer Vision Tasks</a> (First Authored)
       </p>
       
+      <a style={{borderBottomStyle: 'none', borderBottomWidth: 0}} href = 'https://hucvl.github.io/synthetic18k/'>
+        <img style={{height: 160}} src={`${BASE_PATH}/images/projects/synthetic_18k_tod_weather_fade.jpg`} alt="" />
+      </a>
+      <p>
+        <a href = 'https://hucvl.github.io/synthetic18k/'> Synthetic18K: Learning Better Representations for Person Re-ID and Attribute Recognition from 1.4 Million Synthetic Images </a>
+      </p>
+      
       <a style={{borderBottomStyle: 'none', borderBottomWidth: 0}} href = 'https://www.researchgate.net/publication/328439189_The_Virtual_Cafeteria_An_Immersive_Environment_for_Interactive_Food_Portion-Size_Education'>
         <img style={{height: 130}} src={`${BASE_PATH}/images/projects/vr_cafe.jpg`} alt="" />
       </a>
       <p>
         <a href = 'https://www.researchgate.net/publication/328439189_The_Virtual_Cafeteria_An_Immersive_Environment_for_Interactive_Food_Portion-Size_Education'> The Virtual Cafeteria: An Immersive Environment for Interactive Food Portion-Size Education. In Proceedings of the 3rd International Workshop on Multisensory Approaches to Human-Food Interaction </a> (Second Authored)
       </p>
-     
 
       {/* {data.map((project) => (
         <Cell
