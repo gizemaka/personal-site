@@ -20,7 +20,7 @@ const Projects = () => (
       </header>
       <p>The work shown will mostly consist features developed for the Taleworlds' in-house engine whilst my time there, I lost most of the images from older works but they should at least paint a picture about me.</p>
       {/* <p>Work is ordered from most recent to oldest. </p> */}
-      <p>You can contact me about my more boring works which do not involve these kind of visuals for me to put here. </p>
+      <p>You can contact me about my more boring works which do not involve these kind of fancy visuals for me to put here. </p>
       
       {/* <p>Keep in mind that Taleworlds Engine is a small team and every member is also tasked with maintenance of the Mount & Blade Series. </p> */}
       

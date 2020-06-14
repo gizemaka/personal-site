@@ -9,10 +9,10 @@ const positions = [
       'Design, implementation and optimization of Decal rendering system, features and tools for the artists.',
       'Cinematic Replay Editor and Offline Renderer optimization and maintenance.',
       'Profiling and optimizations of existing rendering systems',
-      'Various Editor and Debug Tools Development',
+      'Various Editor and Visual Debug Tools Development',
       'Research and implementation of visual effect components by collaborating with Technical Artists',
       'Maintenance of the engine, supporting development teams of Mount & Blade II: Bannerlord and unannounced projects.',
-      'Environment : C++ on Windows, HLSL, with occasional maintenance of the C# side of the Engine',
+      'Environment : C++ on Windows, HLSL, DirectX, with occasional maintenance of the C# side of the Engine',
     ],
   }, {
     company: 'Hacettepe University Computer Graphics and Game Studies Lab',
