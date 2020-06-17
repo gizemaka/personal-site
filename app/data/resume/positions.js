@@ -32,7 +32,7 @@ const positions = [
     daterange: 'Aug 2016 – May 2017 | 10 months',
     points: [
       'Developed a skyscanner-like application for a local travel agency, front-end and partial back-end.',
-      'Small company, a start-up of 3 developers including me. First journey into working culture.',
+      'Small company, a start-up consisting of 3 developers including me. First journey into working culture.',
       'Environment : C#, Js, .NET, React',
     ],
   }
